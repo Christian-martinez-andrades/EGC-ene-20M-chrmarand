@@ -42,8 +42,8 @@ services:
 volumes:
   static:
     name: decide_static
-    #db:
-    # name: decide_db
+  db:
+    name: decide_db
 
 networks:
   decide:
